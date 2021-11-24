@@ -4,7 +4,8 @@
 # -  якщо довжина менше 30 -> прiнтує суму всiх чисел та окремо рядок без цифр (лише з буквами)
 # -  якщо довжина бульше 50 - > ваша фантазiя - > розділити числа на парні та непарні
 
-def check_func():
+def check_func(str_input):
+
     letters_numbers = []
     letters = []
     numbers = []
@@ -38,8 +39,5 @@ def check_func():
         print("Непарні: " + str(unpaired_numbers))
 
 
-str_input = input()            
-    
-check_func()
+check_func("fsdgfddf645546")
 
-print("__________" + str(len(str_input)) + "______________")
